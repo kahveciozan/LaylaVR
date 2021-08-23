@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
+using UnityEngine.UI;
+using DG.Tweening;
+public class Sunset : MonoBehaviour
+{
+    public float time;
+    public TimeSpan currentTime;
+    public Transform sunTransform;
+    public Light sun;
+    public Text timeText;
+    public int days;
+
+    public float intensity;
+    public Color fogday = Color.grey;
+    public Color fognight = Color.black;
+    public int speed;
+    public CanvasGroup dartToLight;
+
+    private void Start()
+    {
+        dartToLight.DOFade(0f, 7f); ;
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        ChangeTime();
+    }
+
+    public void ChangeTime()
+    {
+        time += Time.deltaTime * speed;
+
+        if(time > 86400)
+        {
+            days += 1;
+            time = 0;
+        }
+
+        currentTime = TimeSpan.FromSeconds(time);
+        string[] tempTime = currentTime.ToString().Split(":"[0]);
+        timeText.text = tempTime[0] + ":" + tempTime[1];
+
+        sunTransform.rotation = Quaternion.Euler(new Vector3((time - 21600) / 86400 * 360, 90f, 0f));
+
+        if (time < 43200)
+        {
+            intensity = 1 - (43200 - time) / 43200;
+        }
+        else
+        {
+            intensity = 1 - ((43200 - time) / 43200 * -1);
+        }
+
+        RenderSettings.fogColor = Color.Lerp(fognight , fogday ,intensity * intensity);
+        sun.intensity = intensity;
+
+    }
+}
