@@ -72,10 +72,9 @@ public class MenuManager : MonoBehaviour
 
                 r.GetComponent<RectTransform>().DOAnchorPos(Vector2.zero, 5f);
                 r.GetComponent<RectTransform>().DOScale(2f, 5f);
-                r.GetComponent<RectTransform>().DORotateQuaternion(Quaternion.Euler(0, 180, 0), 5f);
+                r.GetComponent<RectTransform>().DORotateQuaternion(Quaternion.Euler(0, 270, 0), 5f);
                 SceneManager.LoadSceneAsync(levelName);
             }
-
             else
             {
                 r.GetComponent<InteractLevelSelect>().enabled = false;

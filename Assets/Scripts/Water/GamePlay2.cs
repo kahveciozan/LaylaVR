@@ -48,7 +48,7 @@ public class GamePlay2 : MonoBehaviour
         RenderSettings.skybox = skyboxSpace;
 
         StartCoroutine(VolumeUp());
-        darkToLight.DOFade(0.8f, 5f).OnComplete(()=> darkToLight.DOFade(0f,20f));                    // Duzelt daha geç aydinlansin
+        darkToLight.DOFade(0.8f, 7f).OnComplete(()=> darkToLight.DOFade(0f,7f));                    // Duzelt daha geç aydinlansin
         planet3.transform.DOScale(20f,50f);
         planet2.transform.DOScale(80f,20f);
 
