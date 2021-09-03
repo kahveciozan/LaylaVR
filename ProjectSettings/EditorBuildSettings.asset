@@ -5,22 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Menu/Menu-Tripp.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/Focus/Focus-TrippClone.unity
-    guid: 871829fed3556234fac93ff72f8c0336
-  - enabled: 0
-    path: Assets/Scenes/Focus/WaterB.unity
-    guid: 5987d0efccdd9924cb41812f244e1238
   - enabled: 1
     path: Assets/Scenes/Menu/MainMenu.unity
     guid: 1e588c8698952bd4c81f59492d56536f
   - enabled: 1
     path: Assets/Scenes/Focus/Water2.unity
     guid: 576964db3bae2f84a824faf02d8f8974
-  - enabled: 0
-    path: Assets/InfiniteSpace/Scenes/ExampleScene.unity
-    guid: d26380771e3646745b4d3e3b17df590e
   m_configObjects: {}
