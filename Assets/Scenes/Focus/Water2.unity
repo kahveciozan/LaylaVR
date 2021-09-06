@@ -378,6 +378,12 @@ ParticleSystem:
     type: 3}
   m_PrefabInstance: {fileID: 5979688390832488088}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &148614586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4155291461174759130, guid: 0612eddb2cb1b6746ad4b869b2292114,
+    type: 3}
+  m_PrefabInstance: {fileID: 5979688390832488088}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &158571659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -540,6 +546,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcae914220acd4907840a029bb9d9aec, type: 3}
+--- !u!114 &216013128 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5979688389911468445, guid: 0612eddb2cb1b6746ad4b869b2292114,
+    type: 3}
+  m_PrefabInstance: {fileID: 5979688390832488088}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daa796de8aba7904cbb2f2d9783915c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &250832800 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5979688391014062392, guid: 0612eddb2cb1b6746ad4b869b2292114,
@@ -6188,6 +6206,18 @@ Transform:
   m_Father: {fileID: 295175120}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1 &1566481295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5979688389908161137, guid: 0612eddb2cb1b6746ad4b869b2292114,
+    type: 3}
+  m_PrefabInstance: {fileID: 5979688390832488088}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1635935244 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4155291460976957449, guid: 0612eddb2cb1b6746ad4b869b2292114,
+    type: 3}
+  m_PrefabInstance: {fileID: 5979688390832488088}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1644540918
 GameObject:
   m_ObjectHideFlags: 0
@@ -11292,11 +11322,101 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4155291459310798086, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 216013128}
+    - target: {fileID: 4155291459310798086, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RatingOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155291460313932347, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 216013128}
+    - target: {fileID: 4155291460313932347, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RatingOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155291460463869120, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 216013128}
+    - target: {fileID: 4155291460463869120, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RatingOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155291460976957449, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155291461140502482, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 216013128}
+    - target: {fileID: 4155291461140502482, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RatingOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155291461174759130, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4155291461179565392, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 216013128}
+    - target: {fileID: 4155291461179565392, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RatingOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979688389446969216, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979688389746379301, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979688389908161137, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5979688389911468445, guid: 0612eddb2cb1b6746ad4b869b2292114,
         type: 3}
       propertyPath: environment1
       value: 
       objectReference: {fileID: 417396755}
+    - target: {fileID: 5979688389911468445, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: panelMoodTracker
+      value: 
+      objectReference: {fileID: 1566481295}
+    - target: {fileID: 5979688389911468445, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: panelRating
+      value: 
+      objectReference: {fileID: 1635935244}
+    - target: {fileID: 5979688389911468445, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: panelFinish
+      value: 
+      objectReference: {fileID: 148614586}
     - target: {fileID: 5979688389951354520, guid: 0612eddb2cb1b6746ad4b869b2292114,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -11361,6 +11481,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: OVRCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979688391098057070, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 216013128}
+    - target: {fileID: 5979688391098057070, guid: 0612eddb2cb1b6746ad4b869b2292114,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MoodTrackerOnClick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0612eddb2cb1b6746ad4b869b2292114, type: 3}
